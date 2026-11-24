@@ -267,4 +267,3 @@ class SpecialTransportComponent(TransportComponent):
         if self.is_enabled():
             fraction = ((TEMPO_TOP - TEMPO_BOTTOM) / 127.0)
             self.song().tempo = ((fraction * value) + TEMPO_BOTTOM)
-
